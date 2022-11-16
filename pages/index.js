@@ -46,9 +46,10 @@ function Header() {
     <StyledHeader>
       <section className="user-info">
         <img src={`https://github.com/${config.github}.png`}/>
-        <p>{config.name}</p>
-        <p>{config.job}</p>
-        <p>Oi</p>
+        <div>
+          <h2>{config.name}</h2>
+          <p>{config.job}</p>
+        </div>
       </section>
     Header
     </StyledHeader>
