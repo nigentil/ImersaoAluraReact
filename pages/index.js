@@ -34,6 +34,9 @@ img{
 }
 .user-info{
   display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px 32px;
   }
   `;
 
