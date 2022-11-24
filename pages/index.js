@@ -37,6 +37,7 @@ img{
   align-items: center;
   width: 100%;
   padding: 16px 32px;
+  gap: 16px;
   }
   `;
 
@@ -47,11 +48,12 @@ function Header() {
       <section className="user-info">
         <img src={`https://github.com/${config.github}.png`}/>
         <div>
-          <h2>{config.name}</h2>
+          <h2>
+            {config.name}
+          </h2>
           <p>{config.job}</p>
         </div>
       </section>
-    Header
     </StyledHeader>
   )
 }
