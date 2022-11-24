@@ -1,5 +1,13 @@
 {
   "name": "Nival Gentil Gonçalves",
   "job":"Desenvolvedor Senior C#",
-  "github": "nigentil"
+  "github": "nigentil",
+  "playlists": {
+    "jogos":[
+    {
+      "title":"algum titulo",
+      "url":"url",
+      "thumb":"miniatura do vídeo"  
+    }]
+  } 
 }

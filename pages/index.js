@@ -5,12 +5,14 @@ import styled from "styled-components";
 function HomePage() {
     
     var estiloDaHome = {backgroundColor : "red"};
+    
+    console.log(config.playlists);
 
     return(
         <div style={estiloDaHome}>
-          <Menu></Menu>
-          <Header></Header>
-          <Timeline></Timeline>
+          <Menu/>
+          <Header/>
+          <Timeline playlists={config.playlists}/>
         </div>
   )
 };
@@ -51,7 +53,9 @@ function Header() {
           <h2>
             {config.name}
           </h2>
-          <p>{config.job}</p>
+          <p>
+            {config.job}
+          </p>
         </div>
       </section>
     </StyledHeader>
