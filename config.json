@@ -8,6 +8,12 @@
       "title":"algum titulo",
       "url":"url",
       "thumb":"miniatura do vídeo"  
-    }]
+    }],
+    "front-end":[
+      {
+        "title":"algum titulo",
+        "url":"url",
+        "thumb":"miniatura do vídeo"  
+      }]
   } 
 }

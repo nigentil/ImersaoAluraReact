@@ -62,11 +62,12 @@ function Header() {
   )
 }
 
-function Timeline() {
-    
+function Timeline(props) {
+  
+  console.log("dentro do componente", props.playlists);
   return(
     <div>
-    Timeline
+      Timeline
     </div>
   )
 }
