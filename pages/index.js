@@ -12,7 +12,9 @@ function HomePage() {
         <div style={estiloDaHome}>
           <Menu/>
           <Header/>
-          <Timeline playlists={config.playlists}/>
+          <Timeline playlists={config.playlists}>
+              Conteudo
+          </Timeline>
         </div>
   )
 };
@@ -64,10 +66,16 @@ function Header() {
 
 function Timeline(props) {
   
-  console.log("dentro do componente", props.playlists);
+  const playlistNames = Object.keys(props.playlists);
+  console.log("dentro do componente", props);
+
+  //statement
+  //retorno por expressão
   return(
     <div>
-      Timeline
+      {playlistNames.map(function(playlistName){
+        return playlistName;
+      })}
     </div>
   )
 }
